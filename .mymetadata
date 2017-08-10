@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="ofounlocker"
+  id="myeclipse.1495637634586"
+  context-root="/ofounlocker"
+  j2ee-spec="5.0"
+  archive="ofounlocker.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

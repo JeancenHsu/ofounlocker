@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC 
+    "-//mybatis.org//DTD Mapper 3.0//EN"
+    "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.xujinchun.ofounlocker.ofo">
+
+	<select id="queryByBicycleId" parameterType="java.lang.String" resultType="tofo">
+		select  *  from t_ofo where bicycleid=#{bicycleid}
+	</select>
+
+	<insert id="insert" parameterType="tofo">
+		insert into t_ofo(bicycleid,password) values(#{bicycleid},#{password})
+	</insert>
+	
+	<update id="update" parameterType="tofo">
+		update t_ofo set password=#{password} where bicycleid=#{bicycleid}
+	</update>
+
+</mapper>

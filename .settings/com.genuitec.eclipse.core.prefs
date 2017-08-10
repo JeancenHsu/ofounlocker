@@ -1,0 +1,4 @@
+#Fri May 26 23:08:03 CST 2017
+eclipse.preferences.version=1
+validator.Checked=src/mybatis.cfg.xml,WebRoot/js
+validator.Unchecked=

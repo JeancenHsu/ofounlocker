@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<constant name="struts.i18n.encoding" value="UTF-8"/>
+	
+	<!-- spring对struts2的action类进行了托管，托管需要打开这个开关 -->
+	<constant name="struts.objectFactory " value="spring"></constant>
+	
+	<package name="actions" extends="struts-default">
+	  	<action name="action_*"  class="actions"  method="{1}">
+	  	</action>
+	</package>
+</struts>    
